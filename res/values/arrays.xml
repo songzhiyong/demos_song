@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="demos_list">
+        <item>com.demos_song.graphics.TouchDraw</item>
+        <item>com.demos_song.anims.ViewFlipperDemos</item>
+        <item>com.demos_song.text.SpannableText</item>
+        <item>com.demos_song.text.FreezesText</item>
+        <item>com.demos_song.bluetooth.BluetoothChat</item>
+        <item>com.demos_song.widgets.FragmentPager</item>
+        <item>com.demos_song.text.HtmlText</item>
+    </string-array>
+
+</resources>
