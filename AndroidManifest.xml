@@ -39,6 +39,8 @@
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".widgets.FragmentPager" />
+        <activity android:name=".graphics.FlipTextViewActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".graphics.FlipImageViewActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

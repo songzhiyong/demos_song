@@ -9,6 +9,8 @@
         <item>com.demos_song.bluetooth.BluetoothChat</item>
         <item>com.demos_song.widgets.FragmentPager</item>
         <item>com.demos_song.text.HtmlText</item>
+        <item>com.demos_song.graphics.FlipTextViewActivity</item>
+        <item>com.demos_song.graphics.FlipImageViewActivity</item>
     </string-array>
 
 </resources>
