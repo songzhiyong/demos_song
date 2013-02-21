@@ -12,6 +12,7 @@
         <item>com.demos_song.graphics.FlipTextViewActivity</item>
         <item>com.demos_song.graphics.FlipImageViewActivity</item>
         <item>com.demos_song.widgets.Flashlight</item>
+        <item>com.demos_song.afinal.TestAfinalActivity</item>
     </string-array>
 
 </resources>
