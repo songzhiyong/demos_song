@@ -44,6 +44,7 @@
         <activity android:name=".graphics.FlipImageViewActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".widgets.Flashlight" android:screenOrientation="portrait"></activity>
         <activity android:name=".afinal.TestAfinalActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".text.TextUtilsTest"></activity>
     </application>
 
 </manifest>
