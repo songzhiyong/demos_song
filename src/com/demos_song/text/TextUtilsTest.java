@@ -25,7 +25,7 @@ public class TextUtilsTest extends Activity {
 		TextPaint p = text.getPaint();
 		String strTitle = "Moe, Joe, Isaac, Bethany, Cornelius, Charlie";
 		TextUtils.isEmpty("");
-		text.setText("是否为空" + TextUtils.isEmpty(strTitle) + "--"
+		text.setText("是否为空" + TextUtils.isEmpty(strTitle) + "--可变参数字符串连接"
 				+ TextUtils.concat(strTitle, "测试1", "测试2"));
 	}
 }
