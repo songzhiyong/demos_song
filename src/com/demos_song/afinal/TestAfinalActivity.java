@@ -7,7 +7,7 @@ import net.tsz.afinal.FinalActivity;
 import net.tsz.afinal.annotation.view.ViewInject;
 import android.os.Bundle;
 import android.widget.TextView;
-import com.example.lib_song.R;
+import com.demos_song.R;
 /**
  * 测试Afinal开源框架
  * 

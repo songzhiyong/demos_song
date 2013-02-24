@@ -15,7 +15,6 @@ import com.basebeans.BaseActivity;
  * 
  */
 public class HtmlText extends BaseActivity {
-	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		TextView textview = new TextView(this);
