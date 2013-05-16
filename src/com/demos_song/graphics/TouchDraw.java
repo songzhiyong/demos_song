@@ -76,8 +76,8 @@ public class TouchDraw extends Activity implements OnTouchListener {
 		if (isClear) {
 			super.onBackPressed();
 		} else {
-			Toast.makeText(this, getString(R.string.app_clear),
-					Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, getString(R.string.clear), Toast.LENGTH_SHORT)
+					.show();
 			initView();
 			isClear = true;
 		}
