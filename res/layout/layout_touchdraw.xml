@@ -10,22 +10,25 @@
         android:layout_height="0dp"
         android:layout_weight="1.0" />
 
-    <ViewFlipper
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoStart="true"
-        android:inAnimation="@anim/slide_left"
-        android:outAnimation="@anim/slide_right" >
+    <!-- <ViewFlipper -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:autoStart="true" -->
+    <!-- android:inAnimation="@anim/slide_left" -->
+    <!-- android:outAnimation="@anim/slide_right" > -->
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" />
-    </ViewFlipper>
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:src="@drawable/ic_launcher" /> -->
+    <!-- </ViewFlipper> -->
+
 
 </LinearLayout>
