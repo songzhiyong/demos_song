@@ -1,20 +1,21 @@
 package com.demos_song.text;
 import java.io.InputStream;
 import java.net.URL;
+
+import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
-import com.basebeans.BaseActivity;
 /**
  * 多样文本
  * 
  * @author SongZhiyong
  * 
  */
-public class HtmlText extends BaseActivity {
+public class HtmlText extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		TextView textview = new TextView(this);
