@@ -4,6 +4,7 @@
  */
 package com.demos_song.graphics;
 
+import android.R;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -19,7 +20,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
-import com.demos_song.R;
 
 /**
  * 手写画板
