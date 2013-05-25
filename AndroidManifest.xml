@@ -65,6 +65,7 @@
             android:name=".web.WebViewActivity"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name=".graphics.CustomProgressbar"></activity>
     </application>
 
 </manifest>
