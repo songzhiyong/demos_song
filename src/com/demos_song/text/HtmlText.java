@@ -1,4 +1,5 @@
 package com.demos_song.text;
+
 import java.io.InputStream;
 import java.net.URL;
 
@@ -9,6 +10,9 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
+
+import com.demos_song.R;
+
 /**
  * 多样文本
  * 
@@ -29,7 +33,8 @@ public class HtmlText extends Activity {
 				try {
 					is = (InputStream) new URL(source).getContent();
 					Drawable d = Drawable.createFromStream(is, "src");
-					d.setBounds(0, 0, d.getIntrinsicWidth(), d.getIntrinsicHeight());
+					d.setBounds(0, 0, d.getIntrinsicWidth(),
+							d.getIntrinsicHeight());
 					is.close();
 					return d;
 				} catch (Exception e) {
@@ -39,5 +44,20 @@ public class HtmlText extends Activity {
 		}, null);
 		textview.setText(sp);
 		textview.setMovementMethod(LinkMovementMethod.getInstance());
+	}
+
+	@Override
+	public void finish() {
+		super.finish();
+		overridePendingTransition(R.anim.zoom_enter, R.anim.zoom_exit);
+		// overridePendingTransition(R.anim.slide_in_from_left,
+		// R.anim.slide_out_to_right);
+		// overridePendingTransition(android.R.anim.fade_in,
+		// android.R.anim.fade_out);
+		// overridePendingTransition(android.R.anim.slide_out_right,
+		// android.R.anim.slide_in_left);
+		// overridePendingTransition(R.anim.slide_in_from_bottom,
+		// R.anim.slide_out_to_top);
+
 	}
 }
