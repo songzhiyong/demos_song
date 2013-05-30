@@ -66,6 +66,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity android:name=".graphics.CustomProgressbar"></activity>
+        <activity android:name=".graphics.DigitalViewActivity"></activity>
     </application>
 
 </manifest>
