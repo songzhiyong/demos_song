@@ -49,7 +49,7 @@ public class HtmlText extends Activity {
 	@Override
 	public void finish() {
 		super.finish();
-		overridePendingTransition(R.anim.zoom_enter, R.anim.zoom_exit);
+		overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out_out);
 		// overridePendingTransition(R.anim.slide_in_from_left,
 		// R.anim.slide_out_to_right);
 		// overridePendingTransition(android.R.anim.fade_in,

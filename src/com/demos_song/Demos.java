@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import android.R.anim;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -86,7 +85,7 @@ public class Demos extends Activity implements OnItemClickListener {
 
 		// Start.start(this, cls, R.anim.hyperspace_in, R.anim.hyperspace_out);
 		// 放大进入缩小退出
-		Start.start(this, cls, R.anim.zoom_enter, R.anim.zoom_exit);
+		Start.start(this, cls, R.anim.zoom_in, R.anim.zoom_out);
 
 	}
 }
